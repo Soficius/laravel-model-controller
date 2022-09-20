@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 // pagina statica
 
-Route::get('/', 'HomeController@showHome')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
