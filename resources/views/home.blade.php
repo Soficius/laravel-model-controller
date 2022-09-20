@@ -1,9 +1,9 @@
 @extends('layouts.main')
 @section('content')
-    <h1>cinema</h1>
+    <h1>Movies</h1>
     @foreach ($movies as $movie)
-        <div class="card-group">
-            <div class="card">
+        <div class="card-group d-flex flex-grap">
+            <div class="card p-5 ">
                 <h1>{{ $movie->title }}</h1>
                 <div class="card-body">
                     <h5 class="card-title">{{ $movie->original_title }}</h5>
